@@ -10,7 +10,7 @@ To build an automated Text summarizer & Essay grading model
 The dataset for essay grading is taken from kaggle . Link to the dataset : https://www.kaggle.com/c/asap-aes/data
 It consists of 12976 rows, 28 columns of which 6 columns are considered.
 
-### Dataset description:
+### Data description:
 - essay_id : Unique id for each essay
 - essay_set : A particular set number to which the eassay belongs (there are 8 distinct essay sets)
 - essay : Consists of essays
