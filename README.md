@@ -7,7 +7,16 @@
 To build an automated Text summarizer & Essay grading model 
 
 ### Dataset:
-The dataset is taken from kaggle . Link to the dataset : https://www.kaggle.com/c/asap-aes/data
+The dataset for essay grading is taken from kaggle . Link to the dataset : https://www.kaggle.com/c/asap-aes/data
+It consists of 12976 rows, 28 columns of which 6 columns are considered.
+
+### Dataset description:
+- essay_id : Unique id for each essay
+- essay_set : A particular set number to which the eassay belongs (there are 8 distinct essay sets)
+- essay : Consists of essays
+- rater1_domain1 : Score given manually by an examiner 1
+- rater2_domain2 : Score given manually by an examiner 2
+- domain1_score : Average score of rater1_domain1 and rater2_domain2
 
 ### Tools used:
 spaCy, Gensim, NLTK, Lexrank, Sumy, sklearn, Flask
@@ -15,9 +24,9 @@ spaCy, Gensim, NLTK, Lexrank, Sumy, sklearn, Flask
 ### Work Flow:
 1. Essay Grader
 - Scaling grades from different sets
-- Pre-processing
+- Pre-processing 
 - Feature extraction using sklearn and nltk
-- Prediction using Suppoer vector regressor
+- Prediction using Support vector regressor
 
 2. Text Summarizer using Sumy Lexrank and Gensim
 - Convert Paragraphs to sentences
@@ -34,7 +43,6 @@ spaCy, Gensim, NLTK, Lexrank, Sumy, sklearn, Flask
 - Find Weighted Frequency of Occurrence
 - Replace Words by Weighted Frequency in Original Sentences
 - Sort Sentences in Descending Order of Sum
-
 
 ### Result :
 Link to a live demonstration of the dashboard :
