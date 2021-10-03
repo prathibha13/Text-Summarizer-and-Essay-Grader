@@ -45,7 +45,8 @@ spaCy, Gensim, NLTK, Lexrank, Sumy, sklearn, Flask
 - Sort Sentences in Descending Order of Sum
 
 ### Result :
-Link to a live demonstration of the dashboard :
+Live demonstration of the dashboard :
+https://user-images.githubusercontent.com/73699314/135741675-bd9fb3ca-3aef-448d-964f-5707b10c365b.mp4
  
 ### Inferences
 - This model helps us by simplifying the sheer volume of information that humans interact with daily and hence optimises and reduces the time complexity.
